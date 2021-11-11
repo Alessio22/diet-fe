@@ -1,0 +1,7 @@
+<div class="px-5 pt-5 pb-2 border-b">
+  <h5>Informazioni alimentari</h5>
+</div>
+<div class="divide-y">
+  <div diet-food-category *ngFor="let category of categories$ | async" [category]="category"></div>
+</div>
+
